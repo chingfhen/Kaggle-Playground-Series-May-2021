@@ -17,7 +17,7 @@ Learning Outcomes:
 1. Target encoding only had marginal improvements in performance likely due to some target leakage
     - could explore other encoding methods next time
 2. Low variance features tend to contain less info and are less important, but dropping the lowest variance features won't necessarily improve performance
-3. Dropping features based on features does see some slight improvements in model performance due to reduction in model complexity
+3. Dropping features based on feature importances does see some slight improvements in model performance due to reduction in model complexity
 4. Adding pairwise features does improve model performance slightly - especially 'addition' pairwise features
     - could explore other ways to combine and engineer new features
 5. Random search is an effective and fast way to find better hyperparameters compared to exhaustive GS
